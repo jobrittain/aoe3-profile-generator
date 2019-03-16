@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AOE III Profile Generator", "WindowsApplication6\AOE III Profile Generator.vbproj", "{F266B5A2-6BCD-480E-8B6D-FB9D1B628759}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F266B5A2-6BCD-480E-8B6D-FB9D1B628759}.Debug|x86.ActiveCfg = Debug|x86
+		{F266B5A2-6BCD-480E-8B6D-FB9D1B628759}.Debug|x86.Build.0 = Debug|x86
+		{F266B5A2-6BCD-480E-8B6D-FB9D1B628759}.Release|x86.ActiveCfg = Release|x86
+		{F266B5A2-6BCD-480E-8B6D-FB9D1B628759}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
