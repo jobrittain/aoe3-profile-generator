@@ -94,9 +94,7 @@
     End Sub
 
     Private Sub GButton_Click(sender As System.Object, e As System.EventArgs) Handles GButton.Click
-        If CitBox.Text.ToLower.Contains("joel") Or ExpBox.Text.ToLower.Contains("joel") Or ExpDBox.Text.ToLower.Contains("joel") Or SBox.Text.ToLower.Contains("joel") Then
-            MsgBox("Please don't tease Joel!" & vbNewLine & "(it's not very nice)", MsgBoxStyle.Exclamation, "No")
-        ElseIf CitBox.Text = "" Or ExpBox.Text = "" Or ExpDBox.Text = "" Or SBox.Text = "" Or CBox.Text = "" Then
+        If CitBox.Text = "" Or ExpBox.Text = "" Or ExpDBox.Text = "" Or SBox.Text = "" Or CBox.Text = "" Then
             MsgBox("Please fill in all of the fields.", MsgBoxStyle.Exclamation, "Message")
         Else
             WriteXML.Main()
